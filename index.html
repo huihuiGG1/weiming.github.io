@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魏明 - 个人自我介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 1.2rem;
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #7f8c8d;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-item:hover {
+            color: #3498db;
+        }
+        .section {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        .about-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill-tag {
+            background: #3498db;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        .experience-item {
+            margin-bottom: 25px;
+        }
+        .experience-title {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            display: flex;
+            justify-content: space-between;
+        }
+        .experience-company {
+            color: #3498db;
+            font-weight: 600;
+        }
+        .experience-date {
+            color: #7f8c8d;
+        }
+        .experience-desc {
+            margin-top: 10px;
+            color: #555;
+            line-height: 1.7;
+        }
+        .hobbies-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .hobby-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #555;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px 0;
+            color: #7f8c8d;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 15px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .section {
+                padding: 20px;
+            }
+            .experience-title {
+                flex-direction: column;
+                gap: 5px;
+            }
+            .contact {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部信息 -->
+        <div class="header">
+            <img src="https://via.placeholder.com/180" alt="魏明的头像" class="avatar">
+            <h1>魏明</h1>
+            <div class="title">产品经理 | 互联网行业从业者</div>
+            <div class="contact">
+                <a href="mailto:z1946758847@163.com" class="contact-item">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 1 0v-7A.5.5 0 0 0 8 4zm3.5 1.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0v-5zm-7 0a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0v-5zm3-1a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 1 0v-7A.5.5 0 0 0 7.5 4zm3.5 1.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0v-5z"/>
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM1 8a7 7 0 0 0 14 0A7 7 0 0 0 1 8zm15.707-5.293a.5.5 0 0 0-.707 0L13.5 3.793l-1.5-1.5L8 5.5l-3.293-3.293-1.5 1.5L4.5 2.207l-1.5 1.5a.5.5 0 0 0 .707.707L8 7.707l3.293-3.293a.5.5 0 0 0 0-.707L12.5 2.207l1.5-1.5a.5.5 0 0 0 0-.707z"/>
+                    </svg>
+                    z1946758847@163.com
+                </a>
+                <a href="tel:13800138000" class="contact-item">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.63a.65.65 0 0 0-.183.633l.795 4.423a.678.678 0 0 0 .64 5.106l.003.012a.678.678 0 0 0 .678.614h.044a.678.678 0 0 0 .678-.577l.002-.012a.678.678 0 0 0 .64-5.106l.795-4.423a.65.65 0 0 0-.183-.633L12.346 1.265a.678.678 0 0 0-1.015.063l-1.096 1.096a.678.678 0 0 0-.18.684l.22 1.108a.678.678 0 0 0 .668.527h.065a.678.678 0 0 0 .678-.678v-.065a.678.678 0 0 0-.527-.668l-1.108-.22a.678.678 0 0 0-.684.18l-1.096 1.096zM12 1a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
+                    </svg>
+                    13800138000
+                </a>
+                <a href="https://github.com/weimingxx" target="_blank" class="contact-item">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    github.com/weimingxx
+                </a>
+            </div>
+        </div>
+
+        <!-- 关于我 -->
+        <div class="section">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                我是魏明，一名拥有5年互联网产品经验的产品经理，专注于B端工具类产品的设计与迭代。擅长从用户需求出发，结合市场趋势与技术可行性，打造高效、易用的产品解决方案。具备完整的产品生命周期管理经验，从需求调研、产品规划、原型设计到上线运营均能独立推进。
+                <br><br>
+                性格沉稳细致，注重逻辑思维与数据驱动，同时拥有良好的跨部门协作能力，能够高效联动研发、设计、运营等团队达成产品目标。始终保持对行业新技术、新趋势的敏感度，持续学习提升专业能力。
+            </div>
+        </div>
+
+        <!-- 专业技能 -->
+        <div class="section">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills-list">
+                <span class="skill-tag">产品原型设计（Axure/Figma）</span>
+                <span class="skill-tag">需求分析与挖掘</span>
+                <span class="skill-tag">产品规划与 roadmap</span>
+                <span class="skill-tag">数据分析（Excel/SQL）</span>
+                <span class="skill-tag">用户调研与访谈</span>
+                <span class="skill-tag">PRD 撰写</span>
+                <span class="skill-tag">跨部门协作</span>
+                <span class="skill-tag">敏捷开发流程</span>
+                <span class="skill-tag">B端产品设计</span>
+            </div>
+        </div>
+
+        <!-- 工作经历 -->
+        <div class="section">
+            <h2 class="section-title">工作经历</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="experience-title">
+                        <span><span class="experience-company">某互联网科技公司</span> | 高级产品经理</span>
+                        <span class="experience-date">2021.03 - 至今</span>
+                    </div>
+                    <div class="experience-desc">
+                        负责企业级项目管理工具的核心功能设计与迭代，主导3个重大版本更新，将产品用户活跃度提升40%；
+                        牵头需求调研工作，通过用户访谈、数据分析识别核心痛点，输出10+份深度需求报告；
+                        协调研发、设计、测试团队推进项目落地，把控产品质量与上线节奏，按时交付率100%；
+                        建立产品数据监控体系，通过数据驱动优化产品功能，降低用户操作成本30%。
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-title">
+                        <span><span class="experience-company">某创业公司</span> | 产品经理</span>
+                        <span class="experience-date">2018.07 - 2021.02</span>
+                    </div>
+                    <div class="experience-desc">
+                        参与SaaS型客户管理系统的产品设计，负责客户画像、跟进流程等模块的原型与PRD撰写；
+                        配合运营团队开展用户反馈收集与分析，快速响应市场需求，完成20+次小版本迭代；
+                        协助产品负责人制定产品 roadmap，参与市场竞品分析，输出多份竞品调研报告；
+                        推动产品上线后的用户培训与使用指导，提升客户满意度至90%以上。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 兴趣爱好 -->
+        <div class="section">
+            <h2 class="section-title">兴趣爱好</h2>
+            <div class="hobbies-list">
+                <div class="hobby-item">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d
